@@ -1,0 +1,68 @@
+/* Reset some default styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+
+}
+
+nav ul {
+    list-style-type: none;
+    padding-inline-start: 0px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    text-transform: uppercase;
+    font-size:20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.menu h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.menu-item {
+    margin-bottom: 20px;
+}
+
+.menu-item h3 {
+    font-size: 20px;
+}
+
+.menu-item ul {
+    list-style-type: none;
+    padding-inline-start: 20px;
+}
+
+.menu-item ul li {
+    margin-bottom: 10px;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
